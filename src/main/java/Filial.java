@@ -18,4 +18,12 @@ public class Filial {
     public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
+
+    public String informarCidadeFilial(){
+       return cidade.informarEstadoCidade();
+    }
+
+    public String informarNomeDiretorFilial(){
+        return empresa.informarNomeDiretor();
+    }
 }

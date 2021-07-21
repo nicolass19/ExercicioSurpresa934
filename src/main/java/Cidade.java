@@ -9,4 +9,8 @@ public class Cidade {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
+
+    public String informarEstadoCidade(){
+       return estado.getEstado();
+    }
 }

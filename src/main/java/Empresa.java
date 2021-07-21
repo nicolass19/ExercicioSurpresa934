@@ -18,4 +18,12 @@ public class Empresa {
     public void setDiretor(Funcionario diretor) {
         this.diretor = diretor;
     }
+
+    public String informarGrupo(){
+        return grupo.informarSede();
+    }
+
+    public String informarNomeDiretor(){
+        return diretor.getNome();
+    }
 }

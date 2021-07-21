@@ -18,4 +18,12 @@ public class Departamento {
     public void setChefe(Funcionario chefe) {
         this.chefe = chefe;
     }
+
+    public String informarDepartamentoEmpresa(){
+       return empresa.informarGrupo();
+    }
+
+    public String informarEscolaridadeChefia(){
+        return chefe.informarEscolaridadeChefe();
+    }
 }

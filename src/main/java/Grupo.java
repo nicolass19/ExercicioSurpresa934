@@ -18,4 +18,12 @@ public class Grupo {
     public void setPresidente(Funcionario presidente) {
         this.presidente = presidente;
     }
+
+    public String informarEscolaridadePresidente(){
+        return presidente.getEscolaridade().getNivelEscolaridade();
+    }
+
+    public String informarSede(){
+        return sede.getPaisAlocacao();
+    }
 }
